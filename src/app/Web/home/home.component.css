@@ -1,0 +1,37 @@
+.swiper-wrapper li{
+    width: 13%;
+    margin-right: 15px;
+}
+.courses-tabs-menu .nav li button.active, .courses-tabs-menu .nav li button:hover {
+    border-color: #19193b!important;
+    color: #ffffff!important;
+    background: #19193b!important;
+}
+
+a{
+    text-decoration: none;
+}
+.single-courses .courses-content .courses-author .tag a {
+    background-color: #e2037a;
+    color: #ffffff;
+}
+
+
+.single-courses .courses-content .courses-price-review .courses-price .sale-parice {
+    color: #ffffff;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #e2037a;
+    border-color: #6c757d;
+}
+
+@media only screen and (max-width:768px){
+    .swiper-wrapper li{
+        width: 100%;
+    }
+    .banner-image {
+        height: auto;
+    }
+}
