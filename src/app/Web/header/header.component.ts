@@ -12,4 +12,15 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  /** Show Mobile Menu */
+  showMenu(){
+    let MenuClass= document.getElementById("mobile");
+    MenuClass.className += " open";
+  }
+
+   /** Close Mobile Menu */
+   closeMenu(){
+    document.getElementById("mobile").classList.remove("open"); 
+  }
+
 }

@@ -29,9 +29,9 @@ a{
 }
 
 .category-image{
-    height: 40px;
-    margin-top: 10px;
-    margin-right: 5px;
+    height: 30px;
+    margin-top: 13px;
+    margin-right: 10px;
 }
 
 .ctitle{
@@ -85,4 +85,21 @@ a{
     padding-left: 0px;
     float: right;
     padding-right: 20px;
+}
+@media only screen and (max-width: 768px){
+    .header-logo a img {
+        width: 150px!important;
+        margin-left: -33px!important;
+    }
+    .w-9{
+        width: 40%;
+    }
+    .has-search{
+        margin-left: -75px!important;
+    }
+}
+
+.mobile-cart{
+    float: right;
+    padding-right: 15px;
 }

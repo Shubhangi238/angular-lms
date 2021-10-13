@@ -15194,21 +15194,21 @@ img{
     }
 }
 .mobile-menu{
-    position:fixed;
-    top:0;
-    width:300px;
-    height:100%;
-    left:-305px;
-    background-color:#fff;
-    z-index:999;
-    padding-top:70px;
-    -webkit-transition:all 0.3s ease 0s;
-    -o-transition:all 0.3s ease 0s;
-    transition:all 0.3s ease 0s;
-    overflow:auto
+    position: fixed;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    left: -305px;
+    background-color: #d0e9f6;
+    z-index: 999;
+    /* padding-top: 70px; */
+    transition: all 0.3s ease 0s;
+    overflow: auto;
+    border-right: 1px solid #19193b;
 }
 .mobile-menu.open{
-    left:0
+    left:0;
+    box-shadow: 1px 10px 33px 8px #19193b;
 }
 .mobile-menu .menu-close{
     position:absolute;
@@ -15265,21 +15265,12 @@ img{
     }
 }
 .mobile-sign-in-up{
-    padding-top:30px
+    padding-top:0px
 }
 .mobile-sign-in-up ul{
-    display:-webkit-box;
-    display:-webkit-flex;
-    display:-ms-flexbox;
-    display:flex;
-    -webkit-box-align:center;
-    -webkit-align-items:center;
-    -ms-flex-align:center;
-    align-items:center;
-    -webkit-box-pack:center;
-    -webkit-justify-content:center;
-    -ms-flex-pack:center;
-    justify-content:center
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
 .mobile-sign-in-up ul li{
     margin-right:20px
@@ -15287,6 +15278,10 @@ img{
 .mobile-sign-in-up ul li:last-child{
     margin-right:0
 }
+.mobile-menu-items .nav-menu{
+    padding-left: 5px;
+}
+
 .mobile-sign-in-up ul li a{
     font-size:16px;
     font-weight:500;
@@ -15298,7 +15293,7 @@ img{
     display:block;
     height:45px;
     line-height:41px;
-    padding:0 30px;
+    padding:0 20px;
     border:1px solid #2096d2;
     border-radius:5px;
     background-color:#fff
@@ -15313,7 +15308,7 @@ img{
     color:#fff
 }
 .mobile-menu-items{
-    padding:30px 0
+    padding:0px
 }
 .mobile-menu-items ul{
     border-top:1px solid #eeecec
@@ -15844,7 +15839,7 @@ img{
     position:relative;
     overflow:hidden;
     z-index:2;
-    padding-top:188px;
+    padding-top:0px;
     display:-webkit-box;
     display:-webkit-flex;
     display:-ms-flexbox;
@@ -16857,7 +16852,8 @@ img{
     }
 }
 .single-courses:hover{
-    border-color:#2096d2
+    border-color:#2096d2;
+    transform: scale(1.1)!important;
 }
 .courses-btn{
     margin-top:40px
